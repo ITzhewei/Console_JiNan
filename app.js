@@ -4,7 +4,9 @@
 var module = angular.module('Console', [
     'ngRoute',
     'xiaoqv',
-    'yezhu'
+    'yezhu',
+    'company',
+    'baoxiu'
 ]);
 
 //配置路由

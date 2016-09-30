@@ -6,7 +6,7 @@
 var module = angular.module('company',['ngRoute']);
 
 module.config(['$routeProvider',function ($routeProvider) {
-    $routeProvider.when('/yezhu',{
+    $routeProvider.when('/company',{
         templateUrl:'company/view.html',
         conteoller:'companyController'
     })
